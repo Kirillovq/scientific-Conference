@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T07:47:59.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.124 YaBrowser/22.9.3.886 Yowser/2.5 Safari/537.36" etag="s01lXFi4lgS2BkMyxRlE" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T13:02:01.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.124 YaBrowser/22.9.3.886 Yowser/2.5 Safari/537.36" etag="I_8XNOpFNvPrtoqyUDvX" version="20.5.1" type="github">
   <diagram id="2bIgbC6eJrs3b_1TmjiB" name="Страница 1">
-    <mxGraphModel dx="5247" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="3930" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1117,6 +1117,105 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-210" y="470" as="sourcePoint" />
             <mxPoint x="-110" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-1" value="Админ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-780.5" y="1240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="F82GDlVmfaUljsgk6GmS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-765.5" y="1230" as="sourcePoint" />
+            <mxPoint x="-765.5" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-5" value="Аутифицированый" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-780.5" y="1110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-765.79" y="1110" as="sourcePoint" />
+            <mxPoint x="-765.79" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-8" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-780.5" y="980" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="1" source="F82GDlVmfaUljsgk6GmS-14" target="F82GDlVmfaUljsgk6GmS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Редактировать данные участников коференции&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690.5" y="1225" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="1" source="F82GDlVmfaUljsgk6GmS-15" target="F82GDlVmfaUljsgk6GmS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-15" value="Редактировать данные участников коференции" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="1225" width="139" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="1" source="F82GDlVmfaUljsgk6GmS-16" target="F82GDlVmfaUljsgk6GmS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-16" value="Просмотр информации о конференции" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-690.5" y="1100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="1" source="F82GDlVmfaUljsgk6GmS-17" target="F82GDlVmfaUljsgk6GmS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-17" value="Заполнение профиля" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="1100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-22" value="Подача заявлений на участие в конференции" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-690.5" y="1000" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-27" value="" style="endArrow=none;html=1;rounded=0;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="F82GDlVmfaUljsgk6GmS-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-750" y="1120" as="sourcePoint" />
+            <mxPoint x="-770.5" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-710" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-28" value="Просмотр итога конференций" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-680.5" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-29" value="Вход&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="900" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="1" source="F82GDlVmfaUljsgk6GmS-30" target="F82GDlVmfaUljsgk6GmS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-30" value="Регистрация" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="980" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-34" value="" style="endArrow=none;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F82GDlVmfaUljsgk6GmS-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-840" y="1040" as="sourcePoint" />
+            <mxPoint x="-770" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-770" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-35" value="" style="endArrow=none;html=1;rounded=0;fontSize=10;entryX=-0.027;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="F82GDlVmfaUljsgk6GmS-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-740" y="1000" as="sourcePoint" />
+            <mxPoint x="-790" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-710" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-36" value="Рассмотрение заявок&amp;nbsp; на участие в конференции" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="1330" width="129.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F82GDlVmfaUljsgk6GmS-39" value="" style="endArrow=none;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-860" y="1370" as="sourcePoint" />
+            <mxPoint x="-790" y="1280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-800" y="1370" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
