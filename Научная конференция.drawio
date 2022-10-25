@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T16:21:03.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.124 YaBrowser/22.9.3.886 Yowser/2.5 Safari/537.36" etag="49MBGa79ddZPM91qx7ou" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T21:31:44.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.124 YaBrowser/22.9.3.886 Yowser/2.5 Safari/537.36" etag="toEcedA90q2qscUpqkCy" version="20.5.1" type="github">
   <diagram id="2bIgbC6eJrs3b_1TmjiB" name="Страница 1">
-    <mxGraphModel dx="3990" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="5098" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b-kApBfqRteDQGmz_p1I-28" value="Конференции" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+        <mxCell id="b-kApBfqRteDQGmz_p1I-28" value="Conference" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="40" width="180" height="400" as="geometry" />
         </mxCell>
         <mxCell id="b-kApBfqRteDQGmz_p1I-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="b-kApBfqRteDQGmz_p1I-28" vertex="1">
